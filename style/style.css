@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+@font-face {
+  font-family: vazirmatn;
+  src: url(./fonts/webfonts/Vazirmatn-ExtraLight.woff2);
+}
+body main {
+  width: 100%;
+  height: 100vh;
+}
+body main header {
+  width: 100%;
+  height: 100vh;
+}
+body main header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+  height: 60px;
+  background-color: #f8f8f8;
+}
+body main header nav a svg {
+  width: 102px;
+  height: 25px;
+}
+body main header nav .nav-links {
+  display: inline-block;
+}
+body main header nav .nav-links ul {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 35px;
+}
+body main header nav .nav-links ul li {
+  font-size: 15px;
+  color: #70859c;
+}
+body main header nav .nav-links button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+  width: 178px;
+  height: 44px;
+  background-color: #ff5722;
+  border: none;
+  border-radius: 10px;
+}
+body main header nav .nav-links button a {
+  font-size: 15px;
+  color: #fff;
+  font-family: vazirmatn;
+}
+body main header .main-section {
+  display: flex;
+  width: 100%;
+  height: 85vh;
+}
+body main header .main-section img {
+  width: 100%;
+  height: 78vh;
+}
+body main header .main-section .mobile {
+  position: absolute;
+  width: 30%;
+  height: 50%;
+  display: flex;
+}
+body main header .main-section .content-container {
+  display: flex;
+  width: 100%;
+  height: 404px;
+  background-color: rgba(3, 3, 112, 0.664);
+  padding: 25px;
+  border-radius: 20px;
+  left: 1300px;
+  top: 60px;
+}
+body main header .main-section .content-container .h {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  background-color: red;
+  width: 100%;
+  height: 120px;
+}
+body main header .main-section .content-container .h h1 {
+  font-size: 50px;
+  color: #fff;
+}
+body main header .main-section .content-container .h p {
+  font-size: 24px;
+  color: #fff;
+}
+body main header .main-section .content-container button {
+  width: 224px;
+  height: 56px;
+  border-radius: 10px;
+  border: none;
+}
+body main header .main-section .content-container button svg {
+  width: 21px;
+  height: 21px;
+}
+body main header .main-section .content-container button p {
+  font-size: 16px;
+}
+body main header .main-section .content-container .first-row {
+  position: absolute;
+  width: 80%;
+  height: 30vh;
+  display: flex;
+  align-items: flex-end;
+  padding-top: 20px;
+}
+body main header .main-section .content-container .second-row {
+  position: absolute;
+  width: 80%;
+  height: 40vh;
+  display: flex;
+  align-items: flex-end;
+  padding-top: 20px;
+}
+body main header .main-section .content-container .second-row button {
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+}
+body main header .main-section .content-container .last-button {
+  position: absolute;
+  width: 80%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-top: 20px;
+}
+body main header .main-section .content-container .last-button button {
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/*# sourceMappingURL=style.css.map */
