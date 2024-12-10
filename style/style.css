@@ -113,13 +113,13 @@ body main header .hero .main-box .download-box .texts h2 {
 }
 body main header .hero .main-box .download-box .texts .four-buttons {
   width: 87%;
-  height: 10%;
+  height: 55%;
   position: absolute;
   top: 120px;
   padding: 30px;
   display: flex;
-  gap: 20px;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 body main header .hero .main-box .download-box .texts .four-buttons .white-button {
   background-color: #fff;
