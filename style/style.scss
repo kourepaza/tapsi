@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+@font-face {
+    font-family:vazirmatn;
+    src: url(/fonts/webfonts/Vazirmatn-Medium.woff2);
+}
+body{
+    main{
+        width: 100%;
+        height: 100vh;
+        header{
+            width: 100%;
+            height: 100vh;
+            nav{
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                width:100%;
+                height:60px;
+                background-color:#f8f8f8;
+                
+                
+                a{
+                    
+                    svg{
+                        width: 102px;
+                        height: 25px;
+                        
+                    }
+                }
+                .nav-links{
+                    display: inline-block;
+                    ul{
+                        display: flex;
+                        align-items: center;
+                        flex-direction: row;
+                        gap:35px;
+                        
+                        li{
+                            font-size: 15px;
+                            color: #70859c;
+                            font-family: vazirmatn;
+                        }
+                    }
+                    button{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        background-color: aqua;
+                        width: 178px;
+                        height: 44px;
+                        background-color: #ff5722;
+                        border: none;
+                        border-radius: 10px;
+                        a{
+                            font-size: 15px;
+                            color: #fff;
+                            font-family: vazirmatn;
+                        }
+                    }
+                }
+            }
+                        .hero{
+                            position: relative;
+                            width: 100%;
+                            height: 78vh;
+                            display: flex;
+                            justify-content: flex-end;
+                            align-items: flex-end;
+                            img{
+                                width: 100%;
+                                height: 100%;
+                            }
+                        .mobile{
+                            width: 25%;
+                            height: 80vh;
+                            display: flex;
+                            position: absolute;
+                            top: 160px;
+                            left: 150px;
+                        }    
+                        .main-box{
+                            position: absolute;
+                            top: 80px;
+                            width:100%;
+                            height: 80%;
+                            align-self: flex-start;
+                            padding-right: 185px;
+
+                        .download-box{
+                            position: absolute;
+                            width: 30%;
+                            height: 90%;
+                            background-color:#24293f8a;
+                            display: flex;
+                            border-radius: 20px;
+                            padding: 15px 30px;
+                            .texts{
+                                width: 100%;
+                                height: 30%;
+                                h1{
+                                    font-size: 50px;
+                                    color: #fff;
+                                    font-family: vazirmatn;
+                                }
+                                h2{
+                                    font-size: 24px;
+                                    color: #fff;
+                                    font-family: vazirmatn;
+                                }
+                                .four-buttons{
+                                    width: 87%;
+                                    height: 10%;
+                                    position: absolute;
+                                    top: 120px;
+                                    padding: 30px;
+                                    display: flex;
+                                    gap: 20px;
+                                    flex-wrap: wrap;
+                                    .white-button{
+                                        background-color: #fff;
+                                        border: none;
+                                        a{
+                                            color: #3c525a;
+                                            font-size: 16px;
+                                            font-family: vazirmatn;
+                                        }
+                                    }
+                                    button{
+                                        width: 160px;
+                                        height: 56px;
+                                        border-radius: 10px;
+                                        background-color: transparent;
+                                        border: 1px solid white;
+                                        a{
+                                            font-size: 16px;
+                                            color: #fff;
+                                            font-family: vazirmatn;
+                                        }
+
+                                    }
+                                }
+                            }
+                       .last-button{
+                        width: 87%;
+                        height: 60%;
+                        background-color:transparent;
+                        display: flex;
+                        justify-content: center;
+                        align-items: flex-end;
+                        position: absolute;
+                            button{
+                                width:150px;
+                                height: 56px;
+                                border-radius: 10px;
+                                background-color: transparent;
+                                border: 1px solid white;
+                                a{
+                                    font-size: 14px;
+                                    font-family: vazirmatn;
+                                    color: #fff;
+                                }        
+                            }
+                       }
+                        }
+                    }
+                        }
+                        
+                        }
+                }
+            }
+        
+        
+        
+    

@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: vazirmatn;
-  src: url(./fonts/webfonts/Vazirmatn-ExtraLight.woff2);
+  src: url(/fonts/webfonts/Vazirmatn-Medium.woff2);
 }
 body main {
   width: 100%;
@@ -22,7 +22,7 @@ body main header nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 100vw;
+  width: 100%;
   height: 60px;
   background-color: #f8f8f8;
 }
@@ -42,6 +42,7 @@ body main header nav .nav-links ul {
 body main header nav .nav-links ul li {
   font-size: 15px;
   color: #70859c;
+  font-family: vazirmatn;
 }
 body main header nav .nav-links button {
   display: flex;
@@ -59,98 +60,108 @@ body main header nav .nav-links button a {
   color: #fff;
   font-family: vazirmatn;
 }
-body main header .main-section {
-  display: flex;
-  width: 100%;
-  height: 85vh;
-}
-body main header .main-section img {
+body main header .hero {
+  position: relative;
   width: 100%;
   height: 78vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
-body main header .main-section .mobile {
+body main header .hero img {
+  width: 100%;
+  height: 100%;
+}
+body main header .hero .mobile {
+  width: 25%;
+  height: 80vh;
+  display: flex;
+  position: absolute;
+  top: 160px;
+  left: 150px;
+}
+body main header .hero .main-box {
+  position: absolute;
+  top: 80px;
+  width: 100%;
+  height: 80%;
+  align-self: flex-start;
+  padding-right: 185px;
+}
+body main header .hero .main-box .download-box {
   position: absolute;
   width: 30%;
-  height: 50%;
+  height: 90%;
+  background-color: rgba(36, 41, 63, 0.5411764706);
   display: flex;
-}
-body main header .main-section .content-container {
-  display: flex;
-  width: 100%;
-  height: 404px;
-  background-color: rgba(3, 3, 112, 0.664);
-  padding: 25px;
   border-radius: 20px;
-  left: 1300px;
-  top: 60px;
+  padding: 15px 30px;
 }
-body main header .main-section .content-container .h {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  background-color: red;
+body main header .hero .main-box .download-box .texts {
   width: 100%;
-  height: 120px;
+  height: 30%;
 }
-body main header .main-section .content-container .h h1 {
+body main header .hero .main-box .download-box .texts h1 {
   font-size: 50px;
   color: #fff;
+  font-family: vazirmatn;
 }
-body main header .main-section .content-container .h p {
+body main header .hero .main-box .download-box .texts h2 {
   font-size: 24px;
   color: #fff;
+  font-family: vazirmatn;
 }
-body main header .main-section .content-container button {
-  width: 224px;
-  height: 56px;
-  border-radius: 10px;
+body main header .hero .main-box .download-box .texts .four-buttons {
+  width: 87%;
+  height: 10%;
+  position: absolute;
+  top: 120px;
+  padding: 30px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+body main header .hero .main-box .download-box .texts .four-buttons .white-button {
+  background-color: #fff;
   border: none;
 }
-body main header .main-section .content-container button svg {
-  width: 21px;
-  height: 21px;
-}
-body main header .main-section .content-container button p {
+body main header .hero .main-box .download-box .texts .four-buttons .white-button a {
+  color: #3c525a;
   font-size: 16px;
+  font-family: vazirmatn;
 }
-body main header .main-section .content-container .first-row {
-  position: absolute;
-  width: 80%;
-  height: 30vh;
-  display: flex;
-  align-items: flex-end;
-  padding-top: 20px;
-}
-body main header .main-section .content-container .second-row {
-  position: absolute;
-  width: 80%;
-  height: 40vh;
-  display: flex;
-  align-items: flex-end;
-  padding-top: 20px;
-}
-body main header .main-section .content-container .second-row button {
-  color: white;
+body main header .hero .main-box .download-box .texts .four-buttons button {
+  width: 160px;
+  height: 56px;
+  border-radius: 10px;
   background-color: transparent;
   border: 1px solid white;
 }
-body main header .main-section .content-container .last-button {
-  position: absolute;
-  width: 80%;
-  height: 50vh;
+body main header .hero .main-box .download-box .texts .four-buttons button a {
+  font-size: 16px;
+  color: #fff;
+  font-family: vazirmatn;
+}
+body main header .hero .main-box .download-box .last-button {
+  width: 87%;
+  height: 60%;
+  background-color: transparent;
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  padding-top: 20px;
+  position: absolute;
 }
-body main header .main-section .content-container .last-button button {
-  color: white;
+body main header .hero .main-box .download-box .last-button button {
+  width: 150px;
+  height: 56px;
+  border-radius: 10px;
   background-color: transparent;
   border: 1px solid white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
+}
+body main header .hero .main-box .download-box .last-button button a {
+  font-size: 14px;
+  font-family: vazirmatn;
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
