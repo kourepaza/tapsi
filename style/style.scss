@@ -1,3 +1,13 @@
+@mixin firstbtn($width,$bg){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: $width;
+    height: 44px;
+    background-color: $bg;
+    border: none;
+    border-radius: 10px;
+} 
 *{
     margin: 0;
     padding: 0;
@@ -5,10 +15,11 @@
     text-decoration: none;
     list-style-type: none;
 }
+
 @font-face {
-    font-family:vazirmatn;
-    src: url(/fonts/webfonts/Vazirmatn-Medium.woff2);
-}
+     font-family:vazirmatn;
+     src: url(/fonts/webfonts/Vazirmatn-Medium.woff2);
+ }
 body{
     main{
         width: 100%;
@@ -48,15 +59,11 @@ body{
                         }
                     }
                     button{
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        background-color: aqua;
-                        width: 178px;
-                        height: 44px;
-                        background-color: #ff5722;
-                        border: none;
-                        border-radius: 10px;
+                        @include firstbtn(178px, #ff5722);
+
+                       
+
+
                         a{
                             font-size: 15px;
                             color: #fff;
