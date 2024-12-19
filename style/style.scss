@@ -1,3 +1,12 @@
+@use'font.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
 @mixin firstbtn($width,$bg){
     display: flex;
     align-items: center;
@@ -8,18 +17,11 @@
     border: none;
     border-radius: 10px;
 } 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style-type: none;
-}
 
-@font-face {
-     font-family:vazirmatn;
-     src: url(/fonts/webfonts/Vazirmatn-Medium.woff2);
- }
+// @font-face {
+//      font-family:vazirmatn;
+//      src: url(/fonts/webfonts/Vazirmatn-Medium.woff2);
+ 
 body{
     main{
         width: 100%;
